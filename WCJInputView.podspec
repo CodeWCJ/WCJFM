@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WCJInputView"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "this is a inputView"
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "WCJFM/WCJInputView/**/*.{h,m}"
+  spec.source_files  = "WCJInputView/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"

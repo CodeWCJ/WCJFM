@@ -14,8 +14,8 @@
 		2C69281A26BB9C9E0065714A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C69281926BB9C9E0065714A /* Assets.xcassets */; };
 		2C69281D26BB9C9E0065714A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C69281B26BB9C9E0065714A /* LaunchScreen.storyboard */; };
 		2C69282026BB9C9E0065714A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69281F26BB9C9E0065714A /* main.m */; };
-		2C69282B26BBC8D90065714A /* WCJInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69282A26BBC8D90065714A /* WCJInputView.m */; };
-		2C69283226BBE7600065714A /* WCJChangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69283126BBE7600065714A /* WCJChangeView.m */; };
+		2C69286526BBF2F00065714A /* WCJInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69286226BBF2F00065714A /* WCJInputView.m */; };
+		2C69286626BBF2F00065714A /* WCJChangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69286326BBF2F00065714A /* WCJChangeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,10 +31,10 @@
 		2C69281C26BB9C9E0065714A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C69281E26BB9C9E0065714A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C69281F26BB9C9E0065714A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2C69282926BBC8D90065714A /* WCJInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCJInputView.h; sourceTree = "<group>"; };
-		2C69282A26BBC8D90065714A /* WCJInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCJInputView.m; sourceTree = "<group>"; };
-		2C69283026BBE7600065714A /* WCJChangeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCJChangeView.h; sourceTree = "<group>"; };
-		2C69283126BBE7600065714A /* WCJChangeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCJChangeView.m; sourceTree = "<group>"; };
+		2C69286126BBF2F00065714A /* WCJChangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCJChangeView.h; sourceTree = "<group>"; };
+		2C69286226BBF2F00065714A /* WCJInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCJInputView.m; sourceTree = "<group>"; };
+		2C69286326BBF2F00065714A /* WCJChangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCJChangeView.m; sourceTree = "<group>"; };
+		2C69286426BBF2F00065714A /* WCJInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCJInputView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 		2C69280C26BB9C9D0065714A /* WCJFM */ = {
 			isa = PBXGroup;
 			children = (
-				2C69282826BBC8B50065714A /* WCJInputView */,
+				2C69286026BBF2F00065714A /* WCJInputView */,
 				2C69280D26BB9C9D0065714A /* AppDelegate.h */,
 				2C69280E26BB9C9D0065714A /* AppDelegate.m */,
 				2C69281026BB9C9D0065714A /* SceneDelegate.h */,
@@ -83,16 +83,16 @@
 			path = WCJFM;
 			sourceTree = "<group>";
 		};
-		2C69282826BBC8B50065714A /* WCJInputView */ = {
+		2C69286026BBF2F00065714A /* WCJInputView */ = {
 			isa = PBXGroup;
 			children = (
-				2C69282926BBC8D90065714A /* WCJInputView.h */,
-				2C69282A26BBC8D90065714A /* WCJInputView.m */,
-				2C69283026BBE7600065714A /* WCJChangeView.h */,
-				2C69283126BBE7600065714A /* WCJChangeView.m */,
+				2C69286126BBF2F00065714A /* WCJChangeView.h */,
+				2C69286226BBF2F00065714A /* WCJInputView.m */,
+				2C69286326BBF2F00065714A /* WCJChangeView.m */,
+				2C69286426BBF2F00065714A /* WCJInputView.h */,
 			);
 			path = WCJInputView;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -164,8 +164,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C69281526BB9C9D0065714A /* ViewController.m in Sources */,
-				2C69283226BBE7600065714A /* WCJChangeView.m in Sources */,
-				2C69282B26BBC8D90065714A /* WCJInputView.m in Sources */,
+				2C69286626BBF2F00065714A /* WCJChangeView.m in Sources */,
+				2C69286526BBF2F00065714A /* WCJInputView.m in Sources */,
 				2C69280F26BB9C9D0065714A /* AppDelegate.m in Sources */,
 				2C69282026BB9C9E0065714A /* main.m in Sources */,
 				2C69281226BB9C9D0065714A /* SceneDelegate.m in Sources */,
