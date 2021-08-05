@@ -14,6 +14,7 @@
 		2C69281A26BB9C9E0065714A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C69281926BB9C9E0065714A /* Assets.xcassets */; };
 		2C69281D26BB9C9E0065714A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C69281B26BB9C9E0065714A /* LaunchScreen.storyboard */; };
 		2C69282026BB9C9E0065714A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69281F26BB9C9E0065714A /* main.m */; };
+		2C69282B26BBC8D90065714A /* WCJInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69282A26BBC8D90065714A /* WCJInputView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		2C69281C26BB9C9E0065714A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C69281E26BB9C9E0065714A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C69281F26BB9C9E0065714A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C69282926BBC8D90065714A /* WCJInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCJInputView.h; sourceTree = "<group>"; };
+		2C69282A26BBC8D90065714A /* WCJInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCJInputView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		2C69280C26BB9C9D0065714A /* WCJFM */ = {
 			isa = PBXGroup;
 			children = (
+				2C69282826BBC8B50065714A /* WCJInputView */,
 				2C69280D26BB9C9D0065714A /* AppDelegate.h */,
 				2C69280E26BB9C9D0065714A /* AppDelegate.m */,
 				2C69281026BB9C9D0065714A /* SceneDelegate.h */,
@@ -74,6 +78,15 @@
 				2C69281F26BB9C9E0065714A /* main.m */,
 			);
 			path = WCJFM;
+			sourceTree = "<group>";
+		};
+		2C69282826BBC8B50065714A /* WCJInputView */ = {
+			isa = PBXGroup;
+			children = (
+				2C69282926BBC8D90065714A /* WCJInputView.h */,
+				2C69282A26BBC8D90065714A /* WCJInputView.m */,
+			);
+			path = WCJInputView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C69281526BB9C9D0065714A /* ViewController.m in Sources */,
+				2C69282B26BBC8D90065714A /* WCJInputView.m in Sources */,
 				2C69280F26BB9C9D0065714A /* AppDelegate.m in Sources */,
 				2C69282026BB9C9E0065714A /* main.m in Sources */,
 				2C69281226BB9C9D0065714A /* SceneDelegate.m in Sources */,
