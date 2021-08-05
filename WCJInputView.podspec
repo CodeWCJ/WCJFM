@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WCJInputView"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "this is a inputView"
 
   # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
                           WCJInputView 是一个用于保存一些常用工具类的工具
                    DESC
 
-  spec.homepage     = "https://github.com/CodeWCJ/WCJFM.git"
+  spec.homepage     = "https://github.com/CodeWCJ/WCJFM"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 

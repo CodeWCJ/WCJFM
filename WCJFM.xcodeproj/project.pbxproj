@@ -15,6 +15,7 @@
 		2C69281D26BB9C9E0065714A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C69281B26BB9C9E0065714A /* LaunchScreen.storyboard */; };
 		2C69282026BB9C9E0065714A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69281F26BB9C9E0065714A /* main.m */; };
 		2C69282B26BBC8D90065714A /* WCJInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69282A26BBC8D90065714A /* WCJInputView.m */; };
+		2C69283226BBE7600065714A /* WCJChangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69283126BBE7600065714A /* WCJChangeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		2C69281F26BB9C9E0065714A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C69282926BBC8D90065714A /* WCJInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCJInputView.h; sourceTree = "<group>"; };
 		2C69282A26BBC8D90065714A /* WCJInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCJInputView.m; sourceTree = "<group>"; };
+		2C69283026BBE7600065714A /* WCJChangeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCJChangeView.h; sourceTree = "<group>"; };
+		2C69283126BBE7600065714A /* WCJChangeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCJChangeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 			children = (
 				2C69282926BBC8D90065714A /* WCJInputView.h */,
 				2C69282A26BBC8D90065714A /* WCJInputView.m */,
+				2C69283026BBE7600065714A /* WCJChangeView.h */,
+				2C69283126BBE7600065714A /* WCJChangeView.m */,
 			);
 			path = WCJInputView;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C69281526BB9C9D0065714A /* ViewController.m in Sources */,
+				2C69283226BBE7600065714A /* WCJChangeView.m in Sources */,
 				2C69282B26BBC8D90065714A /* WCJInputView.m in Sources */,
 				2C69280F26BB9C9D0065714A /* AppDelegate.m in Sources */,
 				2C69282026BB9C9E0065714A /* main.m in Sources */,
